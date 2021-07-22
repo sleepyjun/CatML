@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body></body>
+  
+  <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+  <script>
+    const socket = io();
+    socket.on('tweet', function(tweet){
+      let target = document.querySelector("body");
+      let p = document.createElement('img');
+      
+      p.setAttribute("src", tweet);
+      target.appendChild(p);
+    });
+  </script>
+</html>

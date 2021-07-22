@@ -1,0 +1,10 @@
+{
+  "optionalDependencies": {
+    "node-tweet-stream": "^2.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^4.1.3"
+  }
+}
