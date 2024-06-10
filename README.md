@@ -16,4 +16,4 @@ ML API
 - [Yolov4 (Darknet)](https://github.com/AlexeyAB/darknet)
 - [FastAPI](https://fastapi.tiangolo.com/)
 
-<https://sleepyjun.github.io/toyproject/mlcat>
+<https://sleepyjun.github.io/project/mlcat>
